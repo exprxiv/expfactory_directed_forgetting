@@ -1,0 +1,12 @@
+{
+    "name": "expfactory_directed_forgetting",
+    "alt_name": "directed forgetting task",
+    "description": "Subjects are asked to remember a set of six stimuli presented in a 2x3 matrix, there is a delay interval, and then they are told to forget either the top 3 or bottom 3 stimuli, there is a second delay interval, and then subjects are probed with a single stimulus. This stimulus can be one of the remaining 3 in the memory set (positive), one of the 3 that subjects were directed to forget (forget), or a stimulus that was originally part of the memory set (control). Subjects should respond with one key for 'yes' if it is a positive stimulus and the other key for 'no' if it is either a forget or control sitmulus.",
+    "version": "1.0.1",
+    "repository": {"type": "git", "url": "https://github.com/exprxiv/expfactory_directed_forgetting.git"},
+    "contributors": ["Jamie Li", "Ian Eisenberg", "Zeynep Enkavi", "Patrick Bissett", "Vanessa Sochat", "Teon L Brooks", "Russell Poldrack"],
+    "duration": "22",
+    "engine": {"front-end": "jspsych"},
+    "ontology": [ {"convention": "Cognitive Atlas", "term": "trm_56674c7c2fa4f"} ],
+    "reference": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2206737/"
+}
